@@ -46,7 +46,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler');
 // );
 // app.use(helmet());
 app.use(cors({
-    origin:'http://localhost:3000',
+    origin:['https://vinswap.onrender.com'],
     credentials: true
 }));
 // app.use(xss());
