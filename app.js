@@ -53,7 +53,7 @@ app.set('trust proxy', 1);
 
 app.use(
   cors({
-    origin: 'https://vinswap.lat/',
+    origin: 'https://vinswap.lat',
     optionsSuccessStatus: 200,
     credentials: true,
   })
